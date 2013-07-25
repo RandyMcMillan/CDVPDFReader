@@ -305,7 +305,9 @@
 
 - (void)doneButtonTapped:(UIButton *)button
 {
-	[delegate tappedInToolbar:self doneButton:button];
+    
+    NSLog(@"doneButtonTapped");
+	//[delegate tappedInToolbar:self doneButton:button];
 }
 
 - (void)thumbsButtonTapped:(UIButton *)button

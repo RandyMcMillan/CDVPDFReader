@@ -739,7 +739,12 @@
 
 	if (printInteraction != nil) [printInteraction dismissAnimated:NO]; // Dismiss
 
-	if ([delegate respondsToSelector:@selector(dismissReaderViewController:)] == YES)
+	
+    
+    
+    //Done Button
+    
+    if ([delegate respondsToSelector:@selector(dismissReaderViewController:)] == YES)
 	{
 		[delegate dismissReaderViewController:self]; // Dismiss the ReaderViewController
 	}
@@ -748,6 +753,10 @@
 		NSAssert(NO, @"Delegate must respond to -dismissReaderViewController:");
 	}
 
+    
+    
+    
+    
 #endif // end of READER_STANDALONE Option
 }
 
