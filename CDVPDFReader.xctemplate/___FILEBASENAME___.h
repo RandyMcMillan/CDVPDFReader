@@ -9,10 +9,11 @@
 
 #import <Cordova/CDVPlugin.h>
 #import "___FILEBASENAME___ViewController.h"
+#import "ReaderViewController.h"
 
 @interface ___FILEBASENAME___ : CDVPlugin <___FILEBASENAME___Delegate>{}
 
-@property (nonatomic, strong) ___FILEBASENAME___ViewController *pdfViewer;
+@property (nonatomic, strong) ReaderViewController *pdfViewer;
 
 
 /*
