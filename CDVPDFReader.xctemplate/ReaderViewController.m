@@ -739,24 +739,35 @@
 
 	if (printInteraction != nil) [printInteraction dismissAnimated:NO]; // Dismiss
 
+    
+	if ([self respondsToSelector:@selector(presentingViewController)]) {
+	
+        // Reference UIViewController.h Line:179 for update to iOS 5 difference - @RandyMcMillan
+		
+        [[self presentingViewController] dismissViewControllerAnimated:YES completion:nil];
+	
+    } else {
 	
     
-    
-    //Done Button
-    
+        [[self parentViewController] dismissModalViewControllerAnimated:YES];
+	
+    }
+
+    //Original responder
+/*
     if ([delegate respondsToSelector:@selector(dismissReaderViewController:)] == YES)
 	{
-		[delegate dismissReaderViewController:self]; // Dismiss the ReaderViewController
+        //		[delegate dismissReaderViewController:self]; // Dismiss the ReaderViewController
+        [[self presentingViewController] dismissViewControllerAnimated:YES completion:nil];
+
 	}
 	else // We have a "Delegate must respond to -dismissReaderViewController: error"
 	{
 		NSAssert(NO, @"Delegate must respond to -dismissReaderViewController:");
 	}
-
-    
-    
-    
-    
+*/
+ 
+ 
 #endif // end of READER_STANDALONE Option
 }
 
