@@ -45,9 +45,11 @@
     
     NSString *phrase = nil; // Document password (for unlocking most encrypted PDF files)
     
-	NSArray *pdfs = [[NSBundle mainBundle] pathsForResourcesOfType:@"pdf" inDirectory:nil];
-    
-	NSString *filePath = [pdfs lastObject]; assert(filePath != nil); // Path to last PDF file
+	//NSArray *pdfs = [[NSBundle mainBundle] pathsForResourcesOfType:@"pdf" inDirectory:nil];
+    NSLog(@"%@",[command.arguments objectAtIndex:0]);
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:(@"%@",[command.arguments objectAtIndex:0]) ofType:@"pdf"];
+ 
+    //	NSString *filePath = [pdfs lastObject]; assert(filePath != nil); // Path to last PDF file
     
 	ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
     
