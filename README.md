@@ -4,13 +4,17 @@ CDVPDFReader
 Cordova (iOS) Xcode Plugin Template
 ---
 
+Updated 07/31/2013 for Cordova iOS 3.0.0
 
+For the template installer [cdv-ios-plugin-templates](https://github.com/RandyMcMillan/cdv-ios-plugin-templates)
+
+    git clone https://github.com/RandyMcMillan/cdv-ios-plugin-templates.git
 
 ###Installation:
     $ cd ~/Library/Developer/Xcode/Templates/File\ Templates
     $ git clone https://github.com/RandyMcMillan/CDVPDFReader.git
 
-![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ScreenShot.png)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ScreenSho t.png)
 
 ###Usage:
 ####Open your Cordova (iOS) Xcode Project
@@ -22,7 +26,7 @@ Cordova (iOS) Xcode Plugin Template
 
     ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ScreenShot3.png)  
 
-* Copy the CDVPDFViewer.js file to your /www folder
+* Copy the CDVPDFReader.js file to your /www folder
 
     ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ScreenShot4.png)
     
@@ -49,7 +53,7 @@ Cordova (iOS) Xcode Plugin Template
 
 Add Folder Group from 
 ---
-`~/Library/Developer/Xcode/Templates/File\ Templates/CDVPDFReader/UIImage+PDF`
+`   `
 
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/CDVPDFReader.xctemplate/ScreenShot1.png)
 
