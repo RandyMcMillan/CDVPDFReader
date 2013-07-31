@@ -39,18 +39,6 @@ For the template installer [cdv-ios-plugin-templates](https://github.com/RandyMc
 
 
 
-#####Add Cordova.plist values
-
-| Key | Type | Value |
-| ------------ |---| ------------- |
-| CDVPDFViewer | String | CDVPDFReader |
-
-#####Cordova 2.3+ Add config.xml values
-`<plugin name="CDVPDFReader" value="CDVPDFReader" />`
-
-
-
-
 Add Folder Group from 
 ---
 `   `
