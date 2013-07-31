@@ -37,12 +37,6 @@ For the template installer [cdv-ios-plugin-templates](https://github.com/RandyMc
 `<script type="text/javascript" charset="utf-8" src="CDVPDFReader.js"></script>`
 
 
-
-
-Add Folder Group from 
----
-`   `
-
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/CDVPDFReader.xctemplate/ScreenShot1.png)
 
 #### *Option 
@@ -78,23 +72,24 @@ A sample index.html is included in the plugin repository
 
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/CopyJSToWWW.png)
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/CopyJSToWWW2.png)
-###Copy CDVPDFViewer.js to your project's WWW folder
+###Copy CDVPDFReader.js to your project's WWW folder
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/EditConfigXML.png)
 ###Edit the config.xml file
 
-    <feature name="CDVPDFViewer">
-        <param name="ios-package" value="CDVPDFViewer"/>
+    <feature name="CDVPDFReader">
+        <param name="ios-package" value="CDVPDFReader"/>
     </feature>
 
+
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/IndexHTML.png)
-Sample [index.html](https://raw.github.com/RandyMcMillan/PDFViewer/master/index.html)
+Sample [index.html](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/index.html)
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/MessageUI.png)
 Add MessageUI.framework to your project.
 
 
 
 This new version offers a new UI based on original source code here: [https://github.com/vfr/Reader](https://github.com/vfr/Reader)
-<br>Reference for additional usage 
+<br>Reference for additional usage
 
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/viewportrait.png)
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/viewportrait2.png)
