@@ -65,6 +65,59 @@ Link or Copy into the Xcode project
 
 
 
+####Add to www/index.html
+
+`<script type="text/javascript" charset="utf-8" src="CDVPDFReader.js"></script>`
+
+A sample index.html is included in the plugin repository
+
+####Cordova (iOS) 3.0+
+
+#####add to your config.xml 
+
+    <feature name="CDVPDFReader">
+        <param name="ios-package" value="CDVPDFReader"/>
+    </feature>
+
+
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/AddFilesToProject.png)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/AddProjectsToProject2.png)
+###Add files to the project
+
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/CopyJSToWWW.png)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/CopyJSToWWW2.png)
+###Copy CDVPDFViewer.js to your project's WWW folder
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/EditConfigXML.png)
+###Edit the config.xml file
+
+    <feature name="CDVPDFViewer">
+        <param name="ios-package" value="CDVPDFViewer"/>
+    </feature>
+
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/IndexHTML.png)
+Sample [index.html](https://raw.github.com/RandyMcMillan/PDFViewer/master/index.html)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/MessageUI.png)
+Add MessageUI.framework to your project.
+
+
+
+This new version offers a new UI based on original source code here: [https://github.com/vfr/Reader](https://github.com/vfr/Reader)
+<br>Reference for additional usage 
+
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/viewportrait.png)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/viewportrait2.png)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ipadlandscapeview.png)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ipadlandscapeview2.png)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ipadlandscapeview3.png)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ipadlandscapeview4.png)
+![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ipadlandscapeview5.png)
+
+
+
+
+
+
+
 <br><br>
 
  Licensed to the Apache Software Foundation (ASF) under one
