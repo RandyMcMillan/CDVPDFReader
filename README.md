@@ -84,6 +84,7 @@ A sample index.html is included in the plugin repository
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/IndexHTML.png)
 Sample [index.html](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/index.html)
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/MessageUI.png)
+<br><br>
 Add MessageUI.framework to your project.
 
 
