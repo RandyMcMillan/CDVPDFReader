@@ -11,7 +11,7 @@
 #import "___FILEBASENAME___ViewController.h"
 #import "ReaderViewController.h"
 
-@interface ___FILEBASENAME___ : CDVPlugin <___FILEBASENAME___Delegate>{}
+@interface ___FILEBASENAME___ : CDVPlugin <___FILEBASENAME___Delegate,ReaderViewControllerDelegate>{}
 
 @property (nonatomic, strong) ReaderViewController *pdfViewer;
 
@@ -24,5 +24,6 @@
 
 
 - (void)showPDF:(CDVInvokedUrlCommand*)command;
+- (void)dismissReaderViewController:(ReaderViewController *)viewController;
 
 @end

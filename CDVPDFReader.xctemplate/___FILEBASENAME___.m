@@ -11,6 +11,11 @@
 #import "___FILEBASENAME___.h"
 #import <Cordova/CDVViewController.h>
 
+
+@interface ReaderViewController () <ReaderViewControllerDelegate>
+
+@end
+
 @implementation ___FILEBASENAME___
 
 @synthesize pdfViewer;
@@ -139,5 +144,28 @@
 	}
 
 #endif
+
+
+
+#pragma mark - ReaderViewControllerDelegate methods
+
+- (void)dismissReaderViewController:(ReaderViewController *)viewController
+{
+#if (DEMO_VIEW_CONTROLLER_PUSH == TRUE)
+    
+    [self.navigationController popViewControllerAnimated:YES];
+    
+#else // dismiss the modal view controller
+    
+    NSLog(@"dismissReaderViewController");
+    
+    [self.viewController dismissViewControllerAnimated:YES completion:NULL];
+    
+    
+#endif // DEMO_VIEW_CONTROLLER_PUSH
+}
+
+
+
 
 @end
