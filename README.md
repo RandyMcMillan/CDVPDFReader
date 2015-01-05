@@ -103,8 +103,10 @@ This new version offers a new UI based on original source code here: [https://gi
 ![image](https://raw.github.com/RandyMcMillan/CDVPDFReader/master/ipadlandscapeview5.png)
 
 
+#####Modify ReaderMainToolbar.m note
+######Comment out LINE:201 to eliminate print button.
 
-
+![image](https://raw.githubusercontent.com/RandyMcMillan/CDVPDFReader/master/ReaderMainToolbar.m.png)
 
 
 
