@@ -5,6 +5,8 @@ Cordova (iOS) Xcode Plugin Template
 ---
 
 Updated 07/31/2013 for Cordova iOS 3.0.0
+Updated 01/04/2014 for Cordova iOS 3.8.0
+
 
 For the template installer [cdv-ios-plugin-templates](https://github.com/RandyMcMillan/cdv-ios-plugin-templates)
 
